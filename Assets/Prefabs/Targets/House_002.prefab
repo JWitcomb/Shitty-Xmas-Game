@@ -71,6 +71,7 @@ GameObject:
   - component: {fileID: 4860321695174456}
   - component: {fileID: 61384721930266322}
   - component: {fileID: 50594808724645020}
+  - component: {fileID: 114144739917321512}
   m_Layer: 0
   m_Name: Detector
   m_TagString: Good
@@ -174,6 +175,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -189,6 +191,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -206,6 +209,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -221,6 +225,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -350,6 +355,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restTime: 1
+--- !u!114 &114144739917321512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1815756665518368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a472d75a70a91b429bbc67ce194cbe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFriendly: 0
+  goodTargetPresentsHitValue: 0
+  goodTargetBombHitValue: 0
+  badTargetPresentsHitValue: 0
+  badTargetBombHitValue: 0
 --- !u!114 &114343373006036748
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -39,10 +39,10 @@ public class Global_Settings : MonoBehaviour {
 
     [Space(10)]
     [Header("Score Settings")]
-    public float goodTargetPresentsHit;
-    public float goodTargetBombHit;
-    public float badTargetPresentsHit;
-    public float badTargetBombHit;
+    public int goodTargetPresentsHit;
+    public int goodTargetBombHit;
+    public int badTargetPresentsHit;
+    public int badTargetBombHit;
 
     [Space(10)]
     public float dropDistanceScoreMultiplier;
